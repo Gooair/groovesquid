@@ -80,10 +80,11 @@
       <Color blue="cc" green="cc" red="cc" type="rgb"/>
     </Property>
     <Property name="locationByPlatform" type="boolean" value="true"/>
-    <Property name="name" type="java.lang.String" value="guiFrame"/>
+    <Property name="name" type="java.lang.String" value="guiFrame" noResource="true"/>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
   </SyntheticProperties>
   <Events>
     <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosingEvent"/>
@@ -720,7 +721,7 @@
                               <Component id="removeFromListButton" min="-2" pref="148" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="removeFromDiskButton" min="-2" pref="151" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="retryFailedDownloadsButton" min="-2" pref="193" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
                               <Component id="selectComboBox" min="-2" pref="92" max="-2" attributes="0"/>
@@ -738,15 +739,13 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="selectComboBox" pref="29" max="32767" attributes="0"/>
-                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
-                                  <Component id="removeFromListButton" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                                  <Component id="removeFromDiskButton" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                              </Group>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="selectComboBox" pref="29" max="32767" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="removeFromListButton" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                              <Component id="removeFromDiskButton" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                              <Component id="retryFailedDownloadsButton" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="retryFailedDownloadsButton" alignment="1" min="-2" pref="27" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="downloadScrollPane" pref="94" max="32767" attributes="0"/>
@@ -973,7 +972,6 @@
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Standardcursor"/>
                 </Property>
-                <Property name="enabled" type="boolean" value="false"/>
                 <Property name="focusable" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="requestFocusEnabled" type="boolean" value="false"/>
