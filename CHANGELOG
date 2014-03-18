@@ -1,0 +1,62 @@
+v0.7.0 (not yet released)
+===================
+- several bug fixes
+- ability to set proxy in the settings
+- retry failed downloads button
+
+v0.6.0
+==================
+- Many bug fixes
+- Small GUI changes
+- Language updates
+- next + previous buttons
+
+v0.5.2
+==================
+- temporarily fixes the error which occured while trying to download a song.
+
+v0.5.1
+==================
+- fixes the crash some people experienced with the 0.5 version
+
+v0.5.0
+==================
+- many bug fixes
+- multiple languages
+- ability to reset original settings
+- there is finally a native mac version available
+
+v0.4.1
+===================
+- fixed taskbar not showing up on maximized state
+- other small fixes
+
+v0.4.0
+===================
+- player now integrated into main frame
+- complete new UI by LeKoArts!
+- progressbar doesn't disappear anymore
+- improved autocomplete
+- many small changes + bugfixes
+
+v0.3.1
+===================
+- search table can be vertically resized again
+
+v0.3
+===================
+- max. parallel downloads now working
+- fixed the url where you get redirected if there is a new update available
+- fixed special chars in filenames not working on windows
+- fixed wrong songs being downloaded
+- you can now listen to songs before downloading them
+- custom file save schemes available
+
+v0.2
+===================
+- search + download albums + playlists
+- history now integrated into download table
+
+v0.1
+===================
+- initial release
