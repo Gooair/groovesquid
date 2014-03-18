@@ -1,0 +1,4 @@
+groovesquid
+===========
+
+Groovesquid Desktop Application
